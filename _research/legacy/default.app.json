@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "name": "my_app",
+  "authors": [
+    "my_name <my_email>"
+  ],
+  "description": "My app",
+  "tutorial": [
+    "example 1: do this",
+    "{{name}} -i input_file -o output_file"
+  ],
+  "view": {
+    "layout": [
+      ["search"],
+      ["input"],
+      ["control"]
+    ],
+    "widgets": {
+      "search": "./search.view.json",
+      "input": "./input.view.json",
+      "control": "./ctrl.view.json"
+    },
+    "theme": "./dark.theme.json"
+  },
+  "controller": "./default.ctrlr.json",
+  "model": "./input.model.json",
+  "distribution": "./default.dist.json"
+}
